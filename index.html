@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S/N入れると判別してくれるやつ</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Serial Number Checker</h1>
+        </div>
+    </header>
+    <main>
+
+        <div class="box">
+            <div>
+                <label id="label-sn">
+                    <select name="select_console" id="select_console">
+                        <option value="SFC">SFC</option>
+                        <option value="Wii">Wii</option>
+                        <option value="PSP">PSP</option>
+                        <option value="Switch">Switch</option>
+                        <option value="DC">DC</option>
+                    </select>
+                    <input type="text" id="input_sn" placeholder="ここにS/Nを入力" maxlength="24">
+                </label>
+            </div>
+        </div>
+        <div class="box">
+            <h3>結果：</h3>
+            <label id="output">
+            </label>
+        </div>
+        <div class="box">
+            <div>
+                <h3>シリアルナンバーの確認方法</h3>
+                <div>
+                    工事中……
+                </div>
+                <div>
+                    SFCの場合
+                </div>
+                <div>
+                    Wiiの場合
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/PC-CNT/SN-Checker">Source</a>
+    </footer>
+</body>
+
+</html>
