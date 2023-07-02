@@ -55,9 +55,6 @@ window.addEventListener("load", () => {
         guess(this.value);
         output.innerHTML = check(this.value);
     });
-    // input_SN.addEventListener("change", function() {
-    //     guess(this.value);
-    // });
     select_console.addEventListener("change", function() {
         output.innerHTML = check(input_SN.value);
     })
